@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args)
+    {
+        HomeApplianceStore.setCompany_name(args[0]);//args[0] is essentially the first argument that communicates with the command line
+        HomeApplianceStore.setCompany_adress(args[1]);//same just args[1]
+        HomeApplianceStore.setCompany_staff(args[2]);//same just args[2]
+
+        System.out.println("Company_name: "+HomeApplianceStore.getCompany_name());
+        System.out.println("Company_adress: "+HomeApplianceStore.getCompany_adress());
+        System.out.println("Company_staff: "+HomeApplianceStore.getCompany_staff());
+    }
+}
