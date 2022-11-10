@@ -1,0 +1,33 @@
+public class HomeApplianceStore
+{
+    private static String company_name;//the whole point of get/set is when our variables are private
+    private static String company_adress;
+    private static int company_staff;
+
+    public static String getCompany_name()//1st get and set(for company_name)
+    {
+        return company_name;
+    }
+    public static void setCompany_name(String company_name)
+    {
+        HomeApplianceStore.company_name = company_name;
+    }
+    public static String getCompany_adress()//2nd get and set(for company_adress)
+    {
+        return company_adress;
+    }
+    public static void setCompany_adress(String company_adress)
+    {
+        HomeApplianceStore.company_adress = company_adress;
+    }
+    public static int getCompany_staff()//3rd get and set(for company_staff).this get has to be int type
+    {
+        return company_staff;
+    }
+    public static void setCompany_staff(String company_staff)
+    {
+        HomeApplianceStore.company_staff = Integer.parseInt(company_staff);
+    }
+
+}
+
