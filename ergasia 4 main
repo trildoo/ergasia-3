@@ -1,0 +1,59 @@
+
+public class Main {
+    static int variable = 4;//number of instances
+    public static int MyFunction(){
+        return variable;}
+    public static void main(String[] args)
+    {
+        System.out.println("Company_name: "+HomeApplianceStore.getCompany_name());
+        System.out.println("Company_adress: "+HomeApplianceStore.getCompany_adress());
+        System.out.println("Company_staff: "+HomeApplianceStore.getCompany_staff());
+
+        AirCondition.setLength(4);//air condition//
+        AirCondition.setHeight(6);
+        AirCondition.setDepth(2);
+        System.out.println(AirCondition.getLength());
+        System.out.println(AirCondition.getHeight());
+        System.out.println(AirCondition.getDepth());
+        AirCondition.setPrice(399);
+        AirCondition.setName("FUJITSU");
+        System.out.println(AirCondition.getPrice());
+        System.out.println(AirCondition.getName());
+
+        fridge.setLength(4);//fridge
+        fridge.setHeight(6);
+        fridge.setDepth(2);
+        System.out.println(fridge.getLength());
+        System.out.println(fridge.getHeight());
+        System.out.println(fridge.getDepth());
+        fridge.setPrice(299);
+        fridge.setName("BOSCH");
+        System.out.println(fridge.getPrice());
+        System.out.println(fridge.getName());
+
+        Oven.setLength(4);//Oven
+        Oven.setHeight(6);
+        Oven.setDepth(2);
+        System.out.println(Oven.getLength());
+        System.out.println(Oven.getHeight());
+        System.out.println(Oven.getDepth());
+        Oven.setPrice(599);
+        Oven.setName("BOSCH");
+        System.out.println(Oven.getPrice());
+        System.out.println(Oven.getName());
+
+        WashingMachine.setLength(4);//WashingMachine
+        WashingMachine.setHeight(6);
+        WashingMachine.setDepth(2);
+        System.out.println(WashingMachine.getLength());
+        System.out.println(WashingMachine.getHeight());
+        System.out.println(WashingMachine.getDepth());
+        WashingMachine.setPrice(199);
+        WashingMachine.setName("BEKO");
+        System.out.println(WashingMachine.getPrice());
+        System.out.println(WashingMachine.getName());
+     System.out.println(MyFunction());
+    }
+
+
+}
