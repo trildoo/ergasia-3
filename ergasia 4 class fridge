@@ -1,0 +1,63 @@
+public class fridge
+{
+    private static int length;
+    private static int height;
+    private static int depth;
+
+    private static String name;
+    private static  float price;
+
+    public fridge(int length, int height, int depth) {
+        fridge.length = length;
+        fridge.height = height;
+        fridge.depth = depth;
+    }
+    public fridge(String name, float price){
+        fridge.name = name;
+        fridge.price = price;
+    }
+
+    public static int getLength() {
+        return length;
+    }
+
+    public static void setLength(int length) {
+        fridge.length = length;
+    }
+
+    public static int getHeight() {
+        return height;
+    }
+
+    public static void setHeight(int height) {
+        fridge.height = height;
+    }
+
+    public static int getDepth() {
+        return depth;
+    }
+
+    public static void setDepth(int depth) {
+      fridge.depth = depth;
+    }
+
+    public static String getName() {
+        return name;
+    }
+
+    public static void setName(String name) {
+        fridge.name = name;
+    }
+
+    public static float getPrice() {
+        return price;
+    }
+
+    public static void setPrice(float price) {
+        fridge.price = price;
+    }
+    private void functionF(){
+
+    }
+}
+
