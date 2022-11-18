@@ -1,0 +1,62 @@
+public class WashingMachine
+{
+    private static int length;
+    private static int height;
+    private static int depth;
+
+    private static String name;
+    private static  float price;
+
+    public WashingMachine(int length, int height, int depth) {
+        WashingMachine.length = length;
+        WashingMachine.height = height;
+        WashingMachine.depth = depth;
+    }
+    public WashingMachine(String name, float price){
+        WashingMachine.name = name;
+        WashingMachine.price = price;
+    }
+
+    public static int getLength() {
+        return length;
+    }
+
+    public static void setLength(int length) {
+        WashingMachine.length = length;
+    }
+
+    public static int getHeight() {
+        return height;
+    }
+
+    public static void setHeight(int height) {
+        WashingMachine.height = height;
+    }
+
+    public static int getDepth() {
+        return depth;
+    }
+
+    public static void setDepth(int depth) {
+        WashingMachine.depth = depth;
+    }
+
+    public static String getName() {
+        return name;
+    }
+
+    public static void setName(String name) {
+        WashingMachine.name = name;
+    }
+
+    public static float getPrice() {
+        return price;
+    }
+
+    public static void setPrice(float price) {
+        WashingMachine.price = price;
+    }
+    private void functionWM(){
+
+    }
+}
