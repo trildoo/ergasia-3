@@ -1,0 +1,61 @@
+public class Oven {
+    private static int length;
+    private static int height;
+    private static int depth;
+
+    private static String name;
+    private static  float price;
+
+    public Oven(int length, int height, int depth) {
+        Oven.length = length;
+        Oven.height = height;
+        Oven.depth = depth;
+    }
+    public Oven(String name, float price){
+        Oven.name = name;
+        Oven.price = price;
+    }
+
+    public static int getLength() {
+        return length;
+    }
+
+    public static void setLength(int length) {
+        Oven.length = length;
+    }
+
+    public static int getHeight() {
+        return height;
+    }
+
+    public static void setHeight(int height) {
+        Oven.height = height;
+    }
+
+    public static int getDepth() {
+        return depth;
+    }
+
+    public static void setDepth(int depth) {
+        Oven.depth = depth;
+    }
+
+    public static String getName() {
+        return name;
+    }
+
+    public static void setName(String name) {
+        Oven.name = name;
+    }
+
+    public static float getPrice() {
+        return price;
+    }
+
+    public static void setPrice(float price) {
+        Oven.price = price;
+    }
+    private void functionO(){
+
+    }
+}
